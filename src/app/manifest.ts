@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Portfolio',
     short_name: 'Portfolio',
     description:
-      'Portfolio of Dushyant Solanki, a MERN Stack Developer with experience in React, Next.js, Node, MongoDB, and real-time features using Socket.IO.',
+      'Portfolio of Hashaam Ahmed, a MERN Stack Developer with experience in React, Next.js, Node, MongoDB, and real-time features using Socket.IO.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

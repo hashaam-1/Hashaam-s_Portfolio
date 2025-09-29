@@ -3,19 +3,19 @@ import React from 'react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Resume | Dushyant Solanki - MERN Stack Developer',
+  title: 'Resume | Hashaam Ahmed  - MERN Stack Developer',
   description:
-    'View the professional resume of Dushyant Solanki, a MERN Stack Developer skilled in React, Node.js, Next.js, and MongoDB. Explore experience, skills, and education.',
+    'View the professional resume of Hashaam Ahmed, a MERN Stack Developer skilled in React, Node.js, Next.js, and MongoDB. Explore experience, skills, and education.',
   keywords: [
-    'Dushyant Solanki',
-    'Dushyant Solanki Resume',
-    'Dushyant',
-    'Dushyant Portfolio',
+    'Hashaam Ahmed',
+    'Hashaam Ahmed Resume',
+    'Hashaam',
+    'Hashaam Portfolio',
     'Mern',
     'Hire',
     'Hire Me',
-    'Gandhinagar',
-    'Ahmedabad',
+    'Pakistan',
+    'Islamabad',
     'Portfolio',
     'Modern Portfolio',
     '7623057936',
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     'Next.js Developer Resume',
     'Node.js Resume',
   ],
-  creator: 'Dushyant Solanki',
-  publisher: 'Dushyant Solanki',
+  creator: 'Hashaam Ahmed',
+  publisher: 'Hashaam Ahmed',
   robots: {
     index: true,
     follow: true,
@@ -48,17 +48,17 @@ export const metadata: Metadata = {
     canonical: 'https://portfolio-dev-dushyant.vercel.app/portfolio/resume',
   },
   openGraph: {
-    title: 'Resume | Dushyant Solanki - MERN Stack Developer',
+    title: 'Resume | Hashaam Ahmed - MERN Stack Developer',
     description:
-      'Explore the resume of Dushyant Solanki, a full-stack JavaScript developer specializing in the MERN stack, including React, Next.js, Node.js, and MongoDB.',
+      'Explore the resume of Hashaam Ahmed, a full-stack JavaScript developer specializing in the MERN stack, including React, Next.js, Node.js, and MongoDB.',
     url: 'https://portfolio-dev-dushyant.vercel.app/portfolio/resume',
-    siteName: 'Portfolio of Dushyant Solanki',
+    siteName: 'Portfolio of Hashaam Ahmed',
     images: [
       {
         url: '/open_graph.png', // Recommended: upload this image (1200x630px)
         width: 1200,
         height: 630,
-        alt: 'Dushyant Solanki Resume Preview',
+        alt: 'Hashaam Ahmed Resume Preview',
       },
     ],
     locale: 'en_US',
@@ -84,7 +84,6 @@ const Resume = () => {
     { name: 'Material UI', percentage: 85 },
     { name: 'Shadcn UI', percentage: 85 },
     { name: 'Deployment', percentage: 75 },
-    { name: 'Photography', percentage: 70 },
   ];
   return (
     <article>
@@ -122,10 +121,10 @@ const Resume = () => {
                 <div className="relative pl-12">
                   <div className="absolute top-2 left-[13px] z-10 h-4 w-4 rounded-full bg-white/30 after:absolute after:top-1/2 after:left-1/2 after:h-2 after:w-2 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:bg-green-500 after:content-['']"></div>
                   <h3 className="mb-2 text-xl font-semibold text-white">
-                    Lemolite Technologies LLP
+                    Clickmaster - Islamabad
                   </h3>
                   <p className="mb-3 text-sm text-gray-400">
-                    Aug 2024 - Aug 2025{' '}
+                    March 2022 - June 2025{' '}
                   </p>
                   <span className="rounded-sm bg-white/5 px-2 py-1 text-sm text-gray-100">
                     Mern Stack Developer
@@ -171,18 +170,17 @@ const Resume = () => {
               <div className="absolute -top-6 left-5 h-full w-0.5 bg-white/10"></div>
 
               <div className="space-y-8">
-                {/* Gujarat Technological University */}
+                {/* PMAS Arid Agriculture University */}
                 <div className="relative pl-12">
                   <div className="absolute top-2 left-[13px] z-10 h-4 w-4 rounded-full bg-white/30 after:absolute after:top-1/2 after:left-1/2 after:h-2 after:w-2 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:bg-green-500 after:content-['']"></div>
 
                   <h3 className="mb-2 text-xl font-semibold text-white">
-                    Gujarat Technological University
+                   PMAS Arid Agriculture University - Rawalpindi
                   </h3>
                   <p className="mb-3 text-sm text-gray-400">2020 — 2024</p>
                   <p className="leading-relaxed text-gray-300">
-                    I hold a Bachelor of Technology (B.Tech) in Computer
-                    Engineering from Gujarat Technological University, where I
-                    graduated with a CGPA of 9.0. My studies provided me with a
+                    I hold a Bachelor of Science (B.S) in Computer
+                    Science from PMAS Arid Agriculture University. My studies provided me with a
                     strong foundation in computer science principles and
                     practical skills, which I apply in my work as a Full Stack
                     Developer and Designer.
@@ -193,12 +191,12 @@ const Resume = () => {
                 <div className="relative pl-12">
                   <div className="absolute top-2 left-[13px] z-10 h-4 w-4 rounded-full bg-white/30 after:absolute after:top-1/2 after:left-1/2 after:h-2 after:w-2 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:bg-green-500 after:content-['']"></div>
                   <h3 className="mb-2 text-xl font-semibold text-white">
-                    The Imperial Science School
+                    Steps College - Rawalpindi
                   </h3>
                   <p className="mb-3 text-sm text-gray-400">2018 — 2020</p>
                   <p className="leading-relaxed text-gray-300">
-                    I completed my high schooling at The Imperial Science
-                    School, where I achieved an A+ grade. This solid academic
+                    I completed my high schooling at Steps College
+                    Rawalpindi, where I achieved an A+ grade. This solid academic
                     foundation helped shape my passion for technology and set
                     the stage for my further studies in computer engineering.
                   </p>

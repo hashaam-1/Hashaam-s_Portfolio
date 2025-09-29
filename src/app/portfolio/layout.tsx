@@ -22,13 +22,13 @@ import { NumberTicker } from '@/components/NumberTiker';
 import ChatBot from '@/components/ChatBot';
 
 const profileData = {
-  name: 'Dushyant Solanki',
+  name: 'Hashaam Ahmed',
   title: 'Full Stack Developer',
   avatar: '/myavatar.png',
-  email: 'dushyantsolanki.dev@gmail.com',
-  phone: '+91 7623057936',
-  birthday: 'Sept 22, 2002',
-  location: 'Ahmedabad, Gujarat, IND',
+  email: 'hashaamamz1@gmail.com',
+  phone: '+92 8752466',
+  birthday: 'June 28, 2002',
+  location: 'Islamabad, Pakistan',
 };
 
 const navLinks = [
@@ -92,23 +92,13 @@ function Sidebar({ count }: { count: number }) {
         <div className="border-white/10 p-6">
           <div className="flex justify-center space-x-4">
             <SocialLink
-              href="https://github.com/dushyantsolanki"
+              href="https://github.com/hashaam-1"
               icon={Github}
             />
             <SocialLink
-              href="https://www.linkedin.com/in/dushyantsolanki/"
+              href="https://www.linkedin.com/in/hashaam-ahmed-1a54b1378/"
               icon={Linkedin}
             />
-            <SocialLink
-              href="https://www.instagram.com/dushyantsolanky/"
-              icon={Instagram}
-            />
-          </div>
-        </div>
-
-        <div className="hidden justify-center lg:flex">
-          <div className="w-1/2 rounded-2xl border border-white/20 bg-black/20 p-3 mb-2 text-center text-4xl shadow-2xl">
-            <NumberTicker value={count} format="youtube" />
           </div>
         </div>
       </div>
@@ -479,12 +469,12 @@ function DesktopNavigation({
                 transition={{ type: 'spring', stiffness: 300, damping: 30 }}
               />
             )}
-            <button
+            {/* <button
               onClick={toggleChatBot}
               className={`relative z-10 flex items-center justify-center px-5 py-3 text-lg font-medium transition-all ${isChatBotOpen ? 'text-white' : 'text-green-500'}`}
             >
               <Bot className="h-6 w-6 mr-1" /> Shree
-            </button>
+            </button> */}
           </motion.li>
         </ul>
       </motion.div>

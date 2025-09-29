@@ -5,13 +5,13 @@ import React from 'react';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://portfolio-dev-dushyant.vercel.app'),
-  title: 'Work | Dushyant Solanki',
+  title: 'Work | Hashaam Ahmed',
   description:
     'Explore a collection of professional and personal projects built using React, Node.js, MongoDB, and more.',
   keywords: [
-    'Dushyant Solanki',
-    'Dushyant',
-    'Dushyant Portfolio',
+    'Hashaam Ahmed',
+    'Hashaam',
+    'Hashaam Portfolio',
     'Mern',
     'Hire',
     'Hire Me',
@@ -23,21 +23,21 @@ export const metadata: Metadata = {
     'Node.js',
     'MongoDB',
     'Full Stack',
-    'Dushyant Solanki',
+    'Hashaam Ahmed',
     '7623057936',
   ],
   openGraph: {
-    title: 'Dushyant Solanki - Work',
+    title: 'Hashaam Ahmed - Work',
     description:
       'Showcasing projects including Task Mate, Go Din Din, Zirotix, and more.',
     url: 'https://portfolio-dev-dushyant.vercel.app/portfolio/work',
-    siteName: 'Dushyant Solanki Portfolio',
+    siteName: 'Hashaam Ahmed Portfolio',
     images: [
       {
         url: '/open_graph.png',
         width: 1200,
         height: 630,
-        alt: 'Dushyant Solanki Portfolio',
+        alt: 'Hashaam Ahmed Portfolio',
       },
     ],
     type: 'website',
@@ -46,27 +46,9 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    name: 'Shree AI Agent',
+    name: 'ACSSLC - CRM',
     description:
-      'I built Shree AI Agent for my portfolio—an intelligent assistant that lets users ask questions and get instant, smart answers right on the site. Simple, helpful, and interactive.',
-    technologies: [
-      'n8n',
-      'supabase',
-      'gemini',
-      'embeddings',
-      'vector store',
-      'google apis',
-      'google drive',
-      'webhook',
-      'Mongo DB',
-      'Personal',
-    ],
-    image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/n8n.svg',
-  },
-  {
-    name: 'Task Mate',
-    description:
-      'Task Mate is a personal productivity project featuring an AI- powered web search assistant, smart event reminders, and task management.Built for flexibility, it allows adding custom features as needed—making it a versatile tool for daily organization and planning.',
+      'CRM software helps businesses manage customer data, track sales, automate tasks, and improve service. It boosts efficiency, builds stronger relationships, and drives growth.',
     technologies: [
       'React',
       'Shadcn UI',
@@ -77,23 +59,47 @@ const projects = [
       'Socket.io',
       'Personal',
     ],
-    link: 'https://taskmate.dushyantportfolio.store',
-    image: '/taskmate.png',
+    image: '/CRM.jpeg',
   },
   {
-    name: 'Go Din Din',
+    name: 'HHTechHub - IT Company Site',
     description:
-      'Go Din Din is a video-based e-commerce platform that showcases products like YouTube Shorts. It features new and old items, follow/following, product storytelling, promotions, and third-party logistics for delivery—blending shopping with social engagement for a modern experience.',
-    technologies: ['Node.js', 'MongoDB', 'Express', 'Company'],
-    image: '/peliswan.svg',
-  },
-  {
-    name: 'Zirotix',
-    description:
-      'Zirotix is a ticket-selling platform for sports matches, concerts, and events. It provides a smooth and secure booking experience with real-time event updates, easy seat selection, and fast digital ticket delivery—making event access simple and hassle-free',
+      'HHTech Hub is a modern IT solutions company providing services in web development, mobile apps, software, CRM/ERP systems, and digital solutions to help businesses grow with technology.',
     technologies: [
       'React',
-      'AntD',
+      'Shadcn UI',
+      'Tailwind CSS',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Socket.io',
+      'Personal',
+    ],
+    link: 'https://hhtechhub.com/',
+    image: '/HHTechHub.png',
+  },
+  {
+    name: 'Hospital Management System - HMS',
+    description:
+      'A Hospital Management System is software that manages patient records, appointments, billing, staff, and inventory. It improves efficiency, reduces paperwork, and enhances patient care.',
+    technologies: [      
+      'React',
+      'Shadcn UI',
+      'Tailwind CSS',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Socket.io',
+      'Personal',],
+    image: '/HMS.png',
+  },
+  {
+    name: 'Clicksy - A Buffer Web App',
+    description:
+      'Clicky is a buffer app that helps you schedule and automate social media posts across multiple platforms. It saves time, ensures consistent posting, boosts engagement, and makes managing content simple and efficient.',
+    technologies: [
+      'React',
+      'SHADcn UI',
       'Tailwind CSS',
       'OTPLESS',
       'Node JS',
@@ -104,9 +110,9 @@ const projects = [
     image: '/zirotix.svg',
   },
   {
-    name: 'Peliswan CRM',
+    name: 'Ecommerce Hub - Shopify Clone',
     description:
-      'Pelisawan CRM is a smart tool for managing leads, staff, roles, and dashboards. It simplifies team coordination and boosts productivity with organized workflows and clear insights.',
+      'Ecommerce Hub is a Shopify clone that lets you create and manage online stores with product listings, payments, and order tracking. It’s fast, customizable, and easy to use for growing eCommerce businesses.',
     technologies: [
       'React',
       'Material UI',
@@ -119,25 +125,35 @@ const projects = [
     image: '/peliswan.svg',
   },
   {
-    name: 'Nexstaff',
+    name: 'ErrandBee - Task Management App',
     description:
-      'Nextstaff is an HRMS platform designed to simplify employee management, payroll, attendance, and leave tracking. It streamlines HR operations, enhances efficiency, and ensures smooth workforce management for growing businesses.',
+      'Errand Bee is a delivery and task app that connects users with trusted runners for errands, deliveries, and on-demand services. It saves time, offers real-time tracking, and ensures fast, reliable task completion.',
     technologies: [
       'React',
-      'Next JS',
+      'Shadcn UI',
+      'Tailwind CSS',
       'Node.js',
+      'Express',
       'MongoDB',
       'Socket.io',
-      'Company',
+      'Personal',
     ],
-    image: '/nexstaff.png',
+    image: '/ErrandBee.png',
   },
   {
-    name: 'Peliswan IMS',
+    name: 'MOH Capital - Accounting Software',
     description:
-      'Pelisawan IMS is an inventory management system for chemical stock control, transport tracking, and billing. It ensures accurate inventory updates, smooth logistics, and efficient bill management for streamlined operations.',
-    technologies: ['React', 'Tailwind CSS', 'Node.js', 'MongoDB', 'Company'],
-    image: '/peliswan.svg',
+      'MOH Capital Accounting Software helps businesses manage expenses, invoices, stock, and reports with ease, ensuring accurate and efficient financial management.',
+    technologies: [     
+      'React',
+      'Shadcn UI',
+      'Tailwind CSS',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Socket.io',
+      'Personal'],
+    image: '/AccountingSoftware.png',
   },
 ];
 

@@ -3,13 +3,13 @@ import React from 'react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact | Dushyant Solanki - MERN Stack Developer',
+  title: 'Contact | Hashaam Ahmed - MERN Stack Developer',
   description:
-    'Get in touch with Dushyant Solanki, a MERN Stack Developer specializing in React, Node.js, MongoDB, and responsive UI development. Available for freelance work, collaborations, and tech projects.',
+    'Get in touch with Hashaam Ahmed, a MERN Stack Developer specializing in React, Node.js, MongoDB, and responsive UI development. Available for freelance work, collaborations, and tech projects.',
   keywords: [
-    'Dushyant Solanki',
-    'Dushyant',
-    'Dushyant Portfolio',
+    'Hashaam Ahmed',
+    'Hashaam',
+    'Hashaam Portfolio',
     'Mern',
     'Hire',
     'Hire Me',
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     'dushyantsolanki.dev@gmail.com',
     '7623057936'
   ],
-  creator: 'Dushyant Solanki',
-  publisher: 'Dushyant Solanki',
+  creator: 'Hashaam Ahmed',
+  publisher: 'Hashaam Ahmed',
   robots: {
     index: true,
     follow: true,
@@ -49,17 +49,17 @@ export const metadata: Metadata = {
     canonical: 'https://portfolio-dev-dushyant.vercel.app/portfolio/contact',
   },
   openGraph: {
-    title: 'Contact | Dushyant Solanki - MERN Stack Developer',
+    title: 'Contact | Hashaam Ahmed - MERN Stack Developer',
     description:
-      'Looking to collaborate or hire? Contact Dushyant Solanki, a full-stack MERN Developer with skills in React, Next.js, Node.js, and MongoDB.',
+      'Looking to collaborate or hire? Contact Hashaam Ahmed, a full-stack MERN Developer with skills in React, Next.js, Node.js, and MongoDB.',
     url: 'https://portfolio-dev-dushyant.vercel.app/portfolio/contact',
-    siteName: 'Portfolio of Dushyant Solanki',
+    siteName: 'Portfolio of Hashaam Ahmed',
     images: [
       {
         url: '/open_graph.png',
         width: 1200,
         height: 630,
-        alt: 'Dushyant Solanki - Contact Page Open Graph Image',
+        alt: 'Hashaam Ahmed - Contact Page Open Graph Image',
       },
     ],
     locale: 'en_US',
@@ -79,7 +79,7 @@ const Contact = () => {
         <section className="relative mb-[30px] h-[400px] w-full overflow-hidden rounded-2xl border border-[#383838] lg:h-[500px]">
           <figure className="h-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181483.53546764606!2d72.45578984534428!3d23.019514112986656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1729944972803!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.1234567890123!2d73.057000!3d33.643500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfabc1234567%3A0x8abcdef123456789!2s6th%20Road%2C%20Satellite%20Town%2C%20Rawalpindi%2C%20Punjab!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
               className="h-full w-full border-none grayscale invert filter"
               loading="lazy"
             ></iframe>

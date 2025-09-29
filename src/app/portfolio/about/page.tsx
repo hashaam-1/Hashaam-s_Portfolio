@@ -13,23 +13,23 @@ import { TestimonialCard } from '@/components/TestimonialCard';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'About | Dushyant Solanki - MERN Stack Developer',
+  title: 'About | Hashaam Ahmed - MERN Stack Developer',
   manifest: '/manifest.webmanifest',
   verification: {
     google: 'OBn1HWCiR3_f-0rm_1He_vnCyzDe5EVjutjILllFoPs',
   },
   description:
-    'Learn more about Dushyant Solanki, a MERN Stack Developer with expertise in React, Next.js, Node.js, and MongoDB. Discover his background, experience, and passion for building modern web applications.',
+    'Learn more about Hashaam Ahmed, a MERN Stack Developer with expertise in React, Next.js, Node.js, and MongoDB. Discover his background, experience, and passion for building modern web applications.',
   keywords: [
-    'Dushyant Solanki',
-    'Dushyant',
-    'Dushyant Portfolio',
+    'Hashaam Ahmed',
+    'Hashaam',
+    'Hashaam Portfolio',
     'Mern',
     'Portfolio',
     'Hire',
     'Hire Me',
-    'Gandhinagar',
-    'Ahmedabad',
+    'Pakistan',
+    'Islamabad',
     'Modern Portfolio',
     '7623057936',
     'About MERN Developer',
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     'Web Developer Portfolio',
     'Next.js Developer',
   ],
-  creator: 'Dushyant Solanki',
-  publisher: 'Dushyant Solanki',
+  creator: 'Hashaam Ahmed',
+  publisher: 'Hashaam Ahmed',
   robots: {
     index: true,
     follow: true,
@@ -61,17 +61,17 @@ export const metadata: Metadata = {
     canonical: 'https://portfolio-dev-dushyant.vercel.app/portfolio/about',
   },
   openGraph: {
-    title: 'About | Dushyant Solanki - MERN Stack Developer',
+    title: 'About | Hashaam Ahmed - MERN Stack Developer',
     description:
-      'Meet Dushyant Solanki, a passionate MERN Stack Developer skilled in building scalable web apps using React, Node.js, and MongoDB.',
+      'Meet Hashaam Ahmed, a passionate MERN Stack Developer skilled in building scalable web apps using React, Node.js, and MongoDB.',
     url: 'https://portfolio-dev-dushyant.vercel.app/portfolio/about',
-    siteName: 'Portfolio of Dushyant Solanki',
+    siteName: 'Portfolio of Hashaam Ahmed',
     images: [
       {
         url: '/open_graph.png', // Make sure this exists in /public
         width: 1200,
         height: 630,
-        alt: 'Dushyant Solanki - MERN Developer',
+        alt: 'Hashaam Ahmed - MERN Developer',
       },
     ],
     locale: 'en_US',
@@ -89,21 +89,21 @@ const TestimonialCards: React.FC = () => {
   const testimonials: TestimonialData[] = [
     {
       avatar: '/avatar-1.png',
-      name: 'Harsh',
+      name: 'John Doe',
       testimonial:
-        'Dushyant is focused, reliable, and always delivers high-quality code within tight deadlines',
+        'Hashaam is focused, reliable, and always delivers high-quality code within tight deadlines',
     },
     {
       avatar: '/avatar-1.png',
-      name: 'Hemant',
+      name: 'Thomson',
       testimonial:
         'His attention to detail and ability to adapt quickly make him incredibly dependable.',
     },
     {
       avatar: '/avatar-1.png',
-      name: 'Yagnik',
+      name: 'Evans',
       testimonial:
-        'Working with Dushyant has been smooth—he’s professional, efficient, and a strong team player',
+        'Working with Hashaam has been smooth—he’s professional, efficient, and a strong team player',
     },
   ];
 
@@ -190,7 +190,7 @@ const About = () => {
         <div className="flex flex-col-reverse items-center justify-between lg:flex-row lg:items-start">
           <div className="box-border pt-8 lg:pr-36">
             <p>
-              I'm a MERN Stack Developer with 1 year of hands-on experience
+              I'm a MERN Stack Developer with 3+ years of hands-on experience
               crafting responsive and scalable web applications. I specialize in
               both frontend and backend development, with a solid foundation in
               JavaScript, TypeScript, and modern frameworks like React.js,
@@ -213,7 +213,7 @@ const About = () => {
 
             <div className="my-8 flex gap-2">
               <a
-                href="/Resume_Dushyant_.pdf"
+                href="/HashaamResume.pdf"
                 download
                 className="relative z-10 mr-1 flex w-34 cursor-pointer items-center justify-start gap-2 rounded-md bg-gradient-to-br from-[#404040] to-[rgba(64,64,64,0)] py-2 pr-8 pl-3 text-gray-200/80 shadow-[0_16px_40px_rgba(0,0,0,0.25)] transition duration-250 ease-in-out before:absolute before:inset-[1px] before:z-[-1] before:rounded-[inherit] before:bg-[#252525ea] before:bg-gradient-to-br before:from-[rgba(43,43,64,0.251)] before:to-[rgba(43,43,64,0)] before:transition before:duration-250 before:ease-in-out before:content-[''] hover:bg-green-300"
               >

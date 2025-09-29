@@ -27,7 +27,7 @@ const ChatBot = ({
     const [messages, setMessages] = useState<Message[]>([
         {
             id: Math.random(),
-            text: '<p>🌟 I am Shree, an intelligent AI assistant created by Dushyant Sir 👨\u200d💻. My purpose is to help you by providing information based on the documents I have access to.</p>',
+            text: '<p>🌟 I am Shree, an intelligent AI assistant created by Hashaam Sir 👨\u200d💻. My purpose is to help you by providing information based on the documents I have access to.</p>',
             sender: 'ai',
             timestamp: new Date(),
         },

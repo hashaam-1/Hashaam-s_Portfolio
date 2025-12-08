@@ -26,7 +26,7 @@ const profileData = {
   title: 'Full Stack Developer',
   avatar: '/myavatar.png',
   email: 'hashaamamz1@gmail.com',
-  phone: '+92 8752466',
+  phone: '+92 312 8752466',
   birthday: 'June 28, 2002',
   location: 'Islamabad, Pakistan',
 };

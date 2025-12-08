@@ -148,10 +148,10 @@ const About = () => {
       name: 'Express.js',
       url: 'https://www.svgrepo.com/show/330398/express.svg',
     },
-    {
-      name: 'Fastify',
-      url: 'https://www.svgrepo.com/show/353729/fastify-icon.svg',
-    },
+    // {
+    //   name: 'Fastify',
+    //   url: 'https://www.svgrepo.com/show/353729/fastify-icon.svg',
+    // },
     { name: 'Socket.io', url: 'https://socket.io/images/logo-dark.svg' },
     { name: 'Mongo DB', url: 'https://www.svgrepo.com/show/373845/mongo.svg' },
     {

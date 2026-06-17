@@ -45,6 +45,23 @@ export const metadata: Metadata = {
 };
 
 const projects = [
+   {
+    name: 'MOH Capital Overseas - A Multi-vendor E-commerce Platform',
+    description:
+      'MOH Capital Overseas is a B2B agricultural marketplace that connects farmers, suppliers, and global buyers, enabling seamless trade of fruits, vegetables, spices, and other agricultural products while ensuring quality, compliance, and efficient supply chain management.',
+    technologies: [
+      'Next.js',
+      'React',
+      'Shadcn UI',
+      'Tailwind CSS',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Socket.io',
+      'Personal',
+    ],
+    image: '/MOHCapital.png',
+  },
   {
     name: 'ACSSLC - CRM',
     description:

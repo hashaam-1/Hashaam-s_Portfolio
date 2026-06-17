@@ -77,7 +77,7 @@ const projects = [
       'Socket.io',
       'Personal',
     ],
-    image: '/CRMLLM.png',
+    image: '/CRMLLC.png',
   },
   {
     name: 'HHTechHub - IT Company Site',
@@ -195,7 +195,7 @@ const ProjectCard = ({
           src={image}
           alt={`${name} screenshot`}
           loading="lazy"
-          className="mb-4 h-40 w-full rounded-xl object-cover"
+          className="mb-4 h-56 w-full rounded-xl object-cover"
         />
         <h3 className="mb-2 text-lg font-semibold text-white">{name}</h3>
         <p className="mb-3 flex-grow text-sm text-gray-300">{description}</p>

@@ -60,6 +60,7 @@ const projects = [
       'Socket.io',
       'Personal',
     ],
+    link: 'https://www.mohcapitaloverseas.com/',
     image: '/MOHCapital.png',
   },
   {
@@ -76,7 +77,7 @@ const projects = [
       'Socket.io',
       'Personal',
     ],
-    image: '/CRM.jpeg',
+    image: '/CRMLLM.png',
   },
   {
     name: 'HHTechHub - IT Company Site',
@@ -155,7 +156,7 @@ const projects = [
       'Socket.io',
       'Personal',
     ],
-    image: '/ErrandBee.png',
+    image: '/ErrandBeeApp.png',
   },
   {
     name: 'MOH Capital - Accounting Software',
